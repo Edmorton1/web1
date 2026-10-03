@@ -1,23 +1,56 @@
 @font-face {
     font-family: "Inter";
-    src: local('Inter'), local('Inter-Bold'), local('Inter Bold'),
-         url("/static/fonts/Inter-Bold.ttf") format("truetype"),
-         url("/static/fonts/Inter-Bold.woff2") format("woff");
+    src: local("Inter Bold"), local("Inter-Bold"),
+         url("/static/fonts/Inter-Bold.woff2") format("woff2"),
+         url("/static/fonts/Inter-Bold.ttf") format("truetype");
     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter";
-    src: local('Inter'), local('Inter-Medium'), local('Inter Medium'),
-         url("/static/fonts/Inter-Medium.ttf") format("truetype"),
-         url("/static/fonts/Inter-Medium.woff2") format("woff");
+    src: local("Inter Medium"), local("Inter-Medium"),
+         url("/static/fonts/Inter-Medium.woff2") format("woff2"),
+         url("/static/fonts/Inter-Medium.ttf") format("truetype");
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Inter";
-    src: local('Inter'), local('Inter-Regular'), local('Inter Regular'),
-         url("/static/fonts/Inter-Regular.ttf") format("truetype"),
-         url("/static/fonts/Inter-Regular.woff2") format("woff");
+    src: local("Inter Regular"), local("Inter-Regular"),
+         url("/static/fonts/Inter-Regular.woff2") format("woff2"),
+         url("/static/fonts/Inter-Regular.ttf") format("truetype");
     font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Italic"), local("Inter-Italic"),
+         url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthjQ.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Medium Italic"), local("Inter-MediumItalic"),
+         url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69thjQ.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter Bold Italic"), local("Inter-BoldItalic"),
+         url("https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhjQ.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
 }

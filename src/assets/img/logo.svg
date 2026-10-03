@@ -2,5 +2,5 @@
   <title id="title">Логотип сайта</title>
   <rect width="120" height="60" rx="10" fill="#2457a6"/>
   <path d="M18 32 34 18l16 14v14H39V35H29v11H18Z" fill="#fff"/>
-  <text x="58" y="36" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="700">HOME</text>
+  <text x="55" y="36" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="700">ДОМ</text>
 </svg>
