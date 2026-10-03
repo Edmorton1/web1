@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="220" viewBox="0 0 350 220" role="img" aria-labelledby="title description">
+  <title id="title">Контактная информация</title>
+  <desc id="description">Конверт и телефон на синем фоне</desc>
+  <rect width="350" height="220" rx="20" fill="#e8f0ff"/>
+  <rect x="45" y="55" width="170" height="115" rx="10" fill="#fff" stroke="#2457a6" stroke-width="6"/>
+  <path d="m49 62 81 65 81-65" fill="none" stroke="#2457a6" stroke-width="6"/>
+  <path d="m49 164 58-55m104 55-58-55" fill="none" stroke="#2457a6" stroke-width="6"/>
+  <path d="M262 62c9-5 20-1 24 8l8 18c3 7 1 15-5 20l-12 9c8 17 20 29 37 37l9-12c5-6 13-8 20-5l7 3v49c-3 2-7 3-11 3-59 0-107-48-107-107 0-10 12-18 30-23Z" fill="#2457a6" transform="translate(-12 -16) scale(.75)"/>
+</svg>
