@@ -22,28 +22,267 @@
         </nav>
     </header>
 
-    <main>
-        <h1 class="main-heading">Самый крутой сайт</h1>
-        <p class="paragraph">Самый важный параграф.</p>
+    <main class="page-content">
+        <section class="hero-section">
+            <article class="hero-content">
+                <h1 class="main-heading">Разработка приложений</h1>
+                <p class="paragraph">Делаем мобильные приложения и сайты для бизнеса.</p>
+                <ul class="hero-features">
+                    <li>Понятный дизайн</li>
+                    <li>Быстрая разработка</li>
+                    <li>Поддержка проекта</li>
+                </ul>
+            </article>
 
-        <h3 class="section-heading">Очень информационный заголовок</h3>
-        <h4 class="minor-heading">Купи слона</h4>
-        <p class="paragraph">Слоны хорошие, большие и красивые.</p>
+            <aside class="hero-preview">
+                <h2 class="contact-heading">Пример проекта</h2>
+                <p class="paragraph">Так может выглядеть готовое приложение.</p>
+                <img src="assets/img/contacts.svg" alt="Пример мобильного приложения" width="350">
+            </aside>
 
-        <h3 class="section-heading">Наши слоны</h3>
-        <p class="paragraph">Купи слона прямо сейчас.</p>
+            <form class="callback-form" action="#" method="post">
+                <h3 class="section-heading">Оставьте контакты</h3>
+                <p class="paragraph">Перезвоним и обсудим задачу.</p>
+                <label for="hero-name">Имя</label>
+                <input class="form-control" id="hero-name" name="hero-name" type="text">
+                <label for="hero-phone">Телефон</label>
+                <input class="form-control" id="hero-phone" name="hero-phone" type="tel">
+                <button class="submit-button" type="submit">Отправить</button>
+            </form>
+        </section>
+
         <hr>
+
+        <section class="services-section">
+            <article class="services-description">
+                <h2 class="contact-heading">Полный цикл разработки</h2>
+                <p class="paragraph">Берём проект от идеи до запуска.</p>
+                <ul class="services-list">
+                    <li>Веб-разработка</li>
+                    <li>Мобильные приложения</li>
+                    <li>Поддержка и развитие</li>
+                </ul>
+            </article>
+
+            <aside class="services-navigation">
+                <h3 class="section-heading">Наши услуги</h3>
+                <p class="paragraph">Выберите нужное направление.</p>
+                <nav aria-label="Список услуг">
+                    <ul>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#stages">Этапы работы</a></li>
+                        <li><a href="#team">Команда</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+
+        <hr>
+
+        <section class="industries-section">
+            <h2 class="contact-heading">Проекты для разных отраслей</h2>
+            <p class="paragraph">Работаем с компаниями из разных сфер.</p>
+            <ul class="industries-list">
+                <li>Образование</li>
+                <li>Спорт</li>
+                <li>Банки</li>
+                <li>Медицина</li>
+                <li>Транспорт</li>
+                <li>Интернет-магазины</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class="projects-section" id="projects">
+            <h2 class="contact-heading">Наши проекты</h2>
+            <p class="paragraph">Несколько работ нашей команды.</p>
+
+            <nav class="project-filter" aria-label="Фильтр проектов">
+                <ul>
+                    <li><a href="#project-card">Все проекты</a></li>
+                    <li><a href="#project-card">Сайты</a></li>
+                    <li><a href="#project-card">Приложения</a></li>
+                </ul>
+            </nav>
+
+            <article class="project-card" id="project-card">
+                <h3 class="section-heading">Проект магазина</h3>
+                <p class="paragraph">Простое приложение для покупок.</p>
+                <ul class="project-results">
+                    <li>Быстрый поиск</li>
+                    <li>Удобный каталог</li>
+                    <li>Онлайн-оплата</li>
+                </ul>
+                <img src="assets/img/contacts.svg" alt="Экран проекта магазина" width="350">
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="consultation-section">
+            <article class="consultation-content">
+                <h2 class="contact-heading">Обсудим ваш проект</h2>
+                <p class="paragraph">Расскажите идею. Мы составим план.</p>
+                <ul>
+                    <li>Бесплатная консультация</li>
+                    <li>Оценка сроков</li>
+                </ul>
+            </article>
+
+            <form class="consultation-form" action="#" method="post">
+                <h3 class="section-heading">Заказать звонок</h3>
+                <p class="paragraph">Оставьте номер телефона.</p>
+                <label for="consultation-phone">Телефон</label>
+                <input class="form-control" id="consultation-phone" name="consultation-phone" type="tel">
+                <button class="submit-button" type="submit">Перезвоните мне</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="stages-section" id="stages">
+            <h2 class="contact-heading">Этапы разработки</h2>
+            <p class="paragraph">Двигаемся по понятному плану.</p>
+            <ol class="stages-list">
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Аналитика</h3>
+                        <p class="paragraph">Изучаем задачу и пользователей.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Дизайн</h3>
+                        <p class="paragraph">Рисуем понятные экраны.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Разработка</h3>
+                        <p class="paragraph">Пишем и проверяем код.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Тестирование</h3>
+                        <p class="paragraph">Ищем и исправляем ошибки.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Запуск</h3>
+                        <p class="paragraph">Публикуем готовый продукт.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="stage-card">
+                        <h3 class="section-heading">Поддержка</h3>
+                        <p class="paragraph">Помогаем после запуска.</p>
+                    </article>
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section class="team-section" id="team">
+            <article class="team-description">
+                <h2 class="contact-heading">Наша команда</h2>
+                <p class="paragraph">Вместе делаем хорошие продукты.</p>
+                <ul class="team-facts">
+                    <li>28 специалистов</li>
+                    <li>Более 100 проектов</li>
+                    <li>7 лет работы</li>
+                </ul>
+            </article>
+
+            <aside class="team-media">
+                <h3 class="section-heading">Работа команды</h3>
+                <p class="paragraph">Коротко о людях и проектах.</p>
+                <img src="assets/img/contacts.svg" alt="Команда разработчиков" width="350">
+            </aside>
+        </section>
+
+        <hr>
+
+        <section class="book-section">
+            <article class="book-content">
+                <h2 class="contact-heading">Получите книгу бесплатно</h2>
+                <p class="paragraph">Оставьте контакты и получите материал.</p>
+                <ul>
+                    <li>Полезные советы</li>
+                    <li>Примеры проектов</li>
+                </ul>
+
+                <form class="book-form" action="#" method="post">
+                    <label for="book-name">Имя</label>
+                    <input class="form-control" id="book-name" name="book-name" type="text">
+                    <label for="book-email">Электронная почта</label>
+                    <input class="form-control" id="book-email" name="book-email" type="email">
+                    <button class="submit-button" type="submit">Получить книгу</button>
+                </form>
+            </article>
+
+            <aside class="book-preview">
+                <h3 class="section-heading">Полезная книга</h3>
+                <p class="paragraph">Десять шагов к запуску проекта.</p>
+                <img src="assets/img/logo.svg" alt="Обложка книги" width="120" height="60">
+            </aside>
+        </section>
+
+        <hr>
+
+        <section class="faq-section">
+            <h2 class="contact-heading">Частые вопросы</h2>
+            <p class="paragraph">Короткие ответы на главные вопросы.</p>
+            <article class="faq-list">
+                <h3 class="section-heading">Вопросы и ответы</h3>
+                <ul>
+                    <li>
+                        <details>
+                            <summary>Сколько длится разработка?</summary>
+                            <p class="paragraph">Срок зависит от размера проекта.</p>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Есть ли гарантия?</summary>
+                            <p class="paragraph">Да, исправляем найденные ошибки.</p>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Можно заказать поддержку?</summary>
+                            <p class="paragraph">Да, поддерживаем проект после запуска.</p>
+                        </details>
+                    </li>
+                </ul>
+            </article>
+        </section>
     </main>
 
-    <footer>
-        <h3 class="section-heading">Важная информация</h3>
-        <p class="paragraph">Здесь могла быть ваша реклама.</p>
+    <footer class="site-footer">
+        <section class="footer-contacts">
+            <h2 class="contact-heading">Контакты</h2>
+            <p class="paragraph">Напишите или позвоните нам.</p>
+            <ul>
+                <li>Самый лучший сайт</li>
+                <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+        </section>
+
+        <nav class="footer-navigation" aria-label="Меню в подвале">
+            <h3 class="section-heading">Меню</h3>
+            <p class="paragraph">Основные страницы сайта.</p>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
         <hr>
-        <ul>
-            <li>Самый лучший сайт</li>
-            <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-        </ul>
         <p class="paragraph">Все права защищены</p>
     </footer>
 </body>

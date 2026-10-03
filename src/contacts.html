@@ -23,53 +23,87 @@
         </nav>
     </header>
 
-    <main>
-        <h2 class="contact-heading">Свяжитесь с нами</h2>
-        <p class="paragraph">Привет!</p>
-        <img src="assets/img/contacts.svg" alt="Контакты" width="350">
+    <main class="contacts-content">
+        <section class="contacts-intro">
+            <h2 class="contact-heading">Свяжитесь с нами</h2>
+            <p class="paragraph">Привет!</p>
+            <img src="assets/img/contacts.svg" alt="Контакты" width="350">
+        </section>
 
-        <h4 class="minor-heading">Адрес</h4>
-        <p class="paragraph">Тюмень</p>
+        <hr>
 
-        <h4 class="minor-heading">Телефон</h4>
-        <ul>
-            <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
-            <li><a href="tel:+79997654321">+7 (999) 765-43-21</a></li>
-        </ul>
+        <section class="contact-details">
+            <h2 class="contact-heading">Наши контакты</h2>
+            <p class="paragraph">Выберите удобный способ связи.</p>
 
-        <h4 class="minor-heading">Онлайн-сервисы</h4>
-        <ul>
-            <li><a href="https://example.com">example.com</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-        </ul>
+            <article class="address-card">
+                <h3 class="minor-heading">Адрес</h3>
+                <p class="paragraph">Тюмень</p>
+            </article>
 
-        <h4 class="minor-heading">Отправьте нам сообщение</h4>
-        <form class="contact-form" action="#" method="post">
-            <p class="paragraph">
-                <label for="full-name">Полное имя</label>
-                <input class="form-control" id="full-name" name="full-name" type="text">
-            </p>
-            <p class="paragraph">
-                <label for="email">Электронная почта</label>
-                <input class="form-control" id="email" name="email" type="email">
-            </p>
-            <p class="paragraph">
-                <label for="message">Сообщение</label>
-                <textarea class="form-control" id="message" name="message"></textarea>
-            </p>
-            <button class="submit-button" type="submit">Отправить</button>
-        </form>
+            <article class="phone-card">
+                <h3 class="minor-heading">Телефон</h3>
+                <p class="paragraph">Звоните в рабочее время.</p>
+                <ul>
+                    <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+                    <li><a href="tel:+79997654321">+7 (999) 765-43-21</a></li>
+                </ul>
+            </article>
+
+            <article class="online-services-card">
+                <h3 class="minor-heading">Онлайн-сервисы</h3>
+                <p class="paragraph">Сайт и электронная почта.</p>
+                <ul>
+                    <li><a href="https://example.com">example.com</a></li>
+                    <li><a href="mailto:info@example.com">info@example.com</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <hr>
+
+        <section class="message-section">
+            <h2 class="minor-heading">Отправьте нам сообщение</h2>
+            <p class="paragraph">Заполните короткую форму.</p>
+            <form class="contact-form" action="#" method="post">
+                <p class="paragraph">
+                    <label for="full-name">Полное имя</label>
+                    <input class="form-control" id="full-name" name="full-name" type="text">
+                </p>
+                <p class="paragraph">
+                    <label for="email">Электронная почта</label>
+                    <input class="form-control" id="email" name="email" type="email">
+                </p>
+                <p class="paragraph">
+                    <label for="message">Сообщение</label>
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                </p>
+                <button class="submit-button" type="submit">Отправить</button>
+            </form>
+        </section>
     </main>
 
-    <footer>
-        <h3 class="section-heading">Важная информация</h3>
-        <p class="paragraph">Здесь могла быть ваша реклама.</p>
+    <footer class="site-footer">
+        <section class="footer-contacts">
+            <h2 class="contact-heading">Контакты</h2>
+            <p class="paragraph">Напишите или позвоните нам.</p>
+            <ul>
+                <li>Самый лучший сайт</li>
+                <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+        </section>
+
+        <nav class="footer-navigation" aria-label="Меню в подвале">
+            <h3 class="section-heading">Меню</h3>
+            <p class="paragraph">Основные страницы сайта.</p>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
         <hr>
-        <ul>
-            <li>Самый лучший сайт</li>
-            <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-        </ul>
         <p class="paragraph">Все права защищены</p>
     </footer>
 </body>
