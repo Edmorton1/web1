@@ -1,11 +1,26 @@
 html {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+  min-width: 1180px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #111b2e;
 }
 
 *,
-*:before,
-*:after {
-    box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  font: inherit;
+}
