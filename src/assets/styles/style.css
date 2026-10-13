@@ -25,7 +25,11 @@
   left: 0;
   width: 100%;
   padding: 26px 0;
-  background: linear-gradient(#f2f5f9 0%, rgba(242, 245, 249, .86) 80%, transparent);
+  background: linear-gradient(
+    #f2f5f9 0%,
+    rgba(242, 245, 249, 0.86) 80%,
+    transparent
+  );
 }
 
 .header-content {
@@ -36,7 +40,7 @@
   padding: 0 26px;
   border-radius: 16px;
   background: #fff;
-  box-shadow: 0 4px 8px rgba(22, 35, 60, .12);
+  box-shadow: 0 4px 8px rgba(22, 35, 60, 0.12);
 }
 
 .brand {
@@ -46,7 +50,7 @@
   line-height: 1;
   color: var(--blue);
   font-weight: 800;
-  letter-spacing: -.8px;
+  letter-spacing: -0.8px;
 }
 
 .brand span {
@@ -55,7 +59,7 @@
 
 .brand small {
   font-size: 4px;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   text-align: center;
   margin-top: 3px;
 }
@@ -82,16 +86,16 @@
   font-size: 14px;
 }
 
-.header-contacts span {
-  display: inline-block;
-  margin-right: 5px;
-  font-size: 23px;
-  line-height: 0;
-  vertical-align: -2px;
+.header-contacts img {
+  width: 14px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
-.mail-link span {
-  font-size: 20px;
+.header-contacts .mail-link img {
+  width: 20px;
+  height: 16px;
 }
 
 .hero {
@@ -102,17 +106,23 @@
   align-items: stretch;
   padding: 170px 0 70px;
   overflow: hidden;
-  background: radial-gradient(circle at 46% 55%, rgba(218, 225, 235, .65), transparent 24%), #f3f6fa;
+  background:
+    radial-gradient(
+      circle at 46% 55%,
+      rgba(218, 225, 235, 0.65),
+      transparent 24%
+    ),
+    #f3f6fa;
 }
 
 .hero::before {
-  content: 'A Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ы Ь Э Ю Я';
+  content: "A Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ы Ь Э Ю Я";
   position: absolute;
   z-index: -1;
   left: 6%;
   bottom: 7%;
   width: 54%;
-  color: rgba(169, 181, 197, .18);
+  color: rgba(169, 181, 197, 0.18);
   font-size: 51px;
   line-height: 1.65;
   letter-spacing: 21px;
@@ -134,14 +144,14 @@ h1 {
   margin: 0;
   font-size: 39px;
   line-height: 1.38;
-  letter-spacing: -.6px;
+  letter-spacing: -0.6px;
 }
 
 h1 strong {
   color: var(--blue);
 }
 
-.hero-copy>p {
+.hero-copy > p {
   max-width: 670px;
   margin: 26px 0 66px;
   font-size: 16px;
@@ -157,7 +167,7 @@ h1 strong {
   padding: 26px;
   border-radius: 14px;
   background: #fff;
-  box-shadow: 0 13px 22px rgba(50, 64, 88, .16);
+  box-shadow: 0 13px 22px rgba(50, 64, 88, 0.16);
 }
 
 .consultation-form h2 {
@@ -187,6 +197,18 @@ h1 strong {
   background: transparent;
 }
 
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-input img {
+  width: 31px;
+  height: 16px;
+  object-fit: contain;
+}
+
 .consultation-form button {
   min-height: 62px;
   border: 0;
@@ -208,7 +230,7 @@ h1 strong {
   overflow: hidden;
   color: #182034;
   background: #fff;
-  box-shadow: 0 22px 38px rgba(40, 55, 77, .22);
+  box-shadow: 0 22px 38px rgba(40, 55, 77, 0.22);
 }
 
 .phone-main {
@@ -378,7 +400,10 @@ h1 strong {
 .dish {
   height: 195px;
   border-radius: 10px;
-  background: radial-gradient(circle at 40% 40%, #f7ad2a 0 7%, transparent 8%), radial-gradient(circle at 61% 49%, #d73512 0 9%, transparent 10%), linear-gradient(140deg, #1d2924, #7e331e 58%, #f0a02b);
+  background:
+    radial-gradient(circle at 40% 40%, #f7ad2a 0 7%, transparent 8%),
+    radial-gradient(circle at 61% 49%, #d73512 0 9%, transparent 10%),
+    linear-gradient(140deg, #1d2924, #7e331e 58%, #f0a02b);
 }
 
 .restaurant {
@@ -412,7 +437,7 @@ h1 strong {
   border-radius: 15px;
   background: #111b2e;
   color: #fff;
-  box-shadow: 0 9px 20px rgba(19, 31, 52, .18);
+  box-shadow: 0 9px 20px rgba(19, 31, 52, 0.18);
 }
 
 .footer-card h2 {
@@ -435,8 +460,21 @@ h1 strong {
 }
 
 .footer-details span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #9aa9c1;
   font-size: 15px;
+}
+
+.footer-details span img {
+  width: 18px;
+  height: 20px;
+  filter: brightness(0) invert(1) opacity(0.65);
+}
+
+.footer-details span img[src$="email.svg"] {
+  height: 16px;
 }
 
 .footer-details a,
@@ -444,7 +482,7 @@ h1 strong {
   font-size: 18px;
 }
 
-.footer-card>p {
+.footer-card > p {
   margin: 46px 0 0;
   text-align: center;
   font-size: 15px;

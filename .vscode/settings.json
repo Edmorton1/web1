@@ -1,8 +1,26 @@
 {
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+
+  "prettier.semi": true,
+
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": false,
+  "prettier.quoteProps": "as-needed",
+
+  "prettier.bracketSpacing": false,
+  "prettier.bracketSameLine": false,
+
+  "prettier.trailingComma": "all",
+
+  "prettier.arrowParens": "always",
+
+  "prettier.singleAttributePerLine": true,
+
+  "prettier.htmlWhitespaceSensitivity": "ignore",
+
+  "prettier.endOfLine": "lf"
 }
