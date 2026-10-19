@@ -1,0 +1,139 @@
+.phones {
+  position: relative;
+  width: 43%;
+
+  & .phone {
+    position: absolute;
+    width: clamp(290px, 23vw, 410px);
+    height: clamp(640px, 48vw, 850px);
+    padding: 22px;
+    overflow: hidden;
+    border-radius: 34px;
+    background: white;
+    box-shadow: 0 25px 45px #17233c35;
+    transform: rotate(-11deg);
+
+    & small {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+    }
+    & h3 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 38px 0 28px;
+      font-size: 20px;
+      font-weight: 400;
+
+      & b {
+        padding: 10px 18px;
+        border-radius: 24px;
+        background: #111;
+        color: white;
+        font-size: 13px;
+      }
+      & i {
+        padding: 7px 10px;
+        border-radius: 14px;
+        background: #f04;
+        color: white;
+        font-style: normal;
+        font-size: 12px;
+      }
+    }
+    & p {
+      color: #405267;
+      font-size: 14px;
+    }
+    &.phone--review {
+      z-index: 1;
+      top: -5px;
+      left: 10px;
+    }
+    &.phone--menu {
+      top: -85px;
+      left: 76%;
+
+      @media (max-width: 1400px) {
+        left: 72%;
+      }
+    }
+
+    & .review-user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+
+      & small {
+        display: block;
+        margin-top: 5px;
+        color: #9aa5b4;
+      }
+      & .avatar {
+        width: 40px;
+        height: 40px;
+        flex: none;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #47745d, #192c26);
+      }
+    }
+
+    & .review-text {
+      margin: 15px 0 0 45px;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px #18243a22;
+      font-size: 15px;
+      line-height: 1.32;
+
+      & .photos {
+        margin-top: 14px;
+        padding: 15px 0;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #ae4b1c, #e5a553 50%, #4d2f1c);
+        text-align: center;
+        font-size: 37px;
+      }
+    }
+    & .reactions {
+      margin: 14px 0 28px 45px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #e1e6ec;
+      font-size: 16px;
+    }
+    & .comment {
+      margin: 9px 0 0 40px;
+      padding: 12px;
+      border: 1px solid #e3e7ec;
+      border-radius: 18px;
+      font-size: 14px;
+    }
+    & .search {
+      padding: 13px;
+      border-radius: 22px;
+      background: #f1f3f6;
+      color: #98a2b2;
+    }
+    & .tags {
+      display: flex;
+      justify-content: space-around;
+      padding: 25px 0;
+      font-size: 25px;
+    }
+    & .dish {
+      height: 260px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background:
+        radial-gradient(
+          circle at 55% 50%,
+          #e6a02a 0 18%,
+          #a9471c 19% 23%,
+          transparent 24%
+        ),
+        linear-gradient(135deg, #1d302b, #d28a2e);
+    }
+  }
+}
