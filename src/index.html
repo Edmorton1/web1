@@ -6,201 +6,162 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Thousand — mobile applications</title>
+    <title>IT Website</title>
     <link
       rel="stylesheet"
       href="assets/styles/style.css"
     />
   </head>
-
   <body class="page">
-    <header class="site-header">
-      <div class="header-content container">
+    <header class="header">
+      <div class="header__inner container">
         <a
-          class="brand"
+          class="logo"
           href="#home"
-          aria-label="Thousand home"
         >
-          <span>THOUSAND</span>
-          <small>OF HAPPY CUSTOMERS</small>
+          IT WEBSITE
         </a>
-        <nav
-          class="main-nav"
-          aria-label="Main navigation"
-        >
+        <nav>
           <a href="#services">Services</a>
           <a href="#media">Media</a>
           <a href="#cases">Cases</a>
           <a href="#faq">FAQ</a>
           <a href="#contacts">Contacts</a>
         </nav>
-        <div class="header-contacts">
-          <a
-            href="tel:+77072548147"
-            class="phone-link"
-          >
-            <span aria-hidden="true">▯</span>
-            +7 (707) 254 81 47
-          </a>
-          <a
-            href="tel:+77783959026"
-            class="phone-link"
-          >
-            <span aria-hidden="true">▯</span>
-            +7 (778) 395 90 26
-          </a>
-          <a
-            href="mailto:thousanditcompany@gmail.com"
-            class="mail-link"
-          >
-            <span aria-hidden="true">✉</span>
-            thousanditcompany@gmail.com
-          </a>
+        <div class="contacts">
+          <span><img src="assets/img/phone.svg" alt="" />+7 (111) 111 11 11</span>
+          <span><img src="assets/img/phone.svg" alt="" />+7 (111) 111 11 11</span>
+          <span><img src="assets/img/email.svg" alt="" />itcompany@mail.com</span>
         </div>
       </div>
     </header>
+
     <main
       id="home"
       class="hero"
     >
-      <div class="hero-content container">
-        <section
-          class="hero-copy"
-          aria-labelledby="hero-title"
-        >
-          <h1 id="hero-title">
+      <div class="container hero__inner">
+        <section class="intro">
+          <h1>
             Development of
-            <strong>mobile applications</strong>
+            <em>mobile applications</em>
             and
-            <strong>web services</strong>
+            <em>web services</em>
             of any complexity
           </h1>
           <p>
             We create mobile applications for iOS, Android that transfer your
             business to mobile applications of your customers' devices
           </p>
-          <form
-            class="consultation-form"
-            action="#"
-            method="post"
-          >
+          <form class="form">
             <h2>
-              Leave your contacts and we will call you back within 30 minutes
+              Leave your contacts and we will call you back
+              <br />
+              within 30 minutes
             </h2>
             <label>
-              <span>Phone number</span>
+              Phone number
               <input
                 type="tel"
-                value="+7 (702) 517-11-98"
-                aria-label="Phone number"
+                value="🇰🇿 +7 (111) 111-11-11"
               />
             </label>
             <label>
-              <span>Full name</span>
-              <input
-                type="text"
-                value="Агадиль"
-                aria-label="Full name"
-              />
+              Full name
+              <input value="Иван Иванов" />
             </label>
-            <button type="submit">Get consultation</button>
+            <button type="button">
+              Get
+              <br />
+              consultation
+            </button>
           </form>
         </section>
+
         <section
-          class="devices"
+          class="phones"
           aria-label="Mobile application previews"
         >
-          <article class="phone phone-main">
-            <div class="phone-bar">
-              <b>1-000.kz</b>
-              <span>● ● ●</span>
-            </div>
-            <div class="review-title">
-              ←
+          <article class="phone phone--review">
+            <small>
+              1-000.kz
+              <span>▂ ▰ ▰</span>
+            </small>
+            <h3>
+              ‹
               <b>Отзыв</b>
-              <i>4.8 ★</i>
-            </div>
-            <div class="profile">
+              <i>★</i>
+            </h3>
+            <div class="review-user">
               <span class="avatar"></span>
-              <b>Адлет Ажколов</b>
-              <small>104 отзывов</small>
+              <div>
+                <strong>Адлет Ажколов</strong>
+                <small>▢ 104 отзывов</small>
+              </div>
             </div>
-            <div class="review-card">
-              Очень дружелюбный персонал, много официантов и только кухню поднял
-              уже тут как тут...
+            <div class="review-text">
+              Очень дружелюбный персонал, много официантов и только руку поднял
+              уже тут как тут. Мясо однозначно на высоте! По ценам, если честно,
+              учитывая насколько распиаренное место, думал что будет дороже.
+              Несомненно стоит посетить
+              <div class="photos">🍱　🍣　🍽️</div>
             </div>
-            <div class="food-row">
-              <span></span>
-              <span></span>
-              <span></span>
+            <div class="reactions">♡ 69　♧ 8　▢ 8</div>
+            <p>8 комментариев</p>
+            <div class="comment">Мне тоже здесь понравилось. Очень уютно)</div>
+            <div class="comment">
+              Никакого неуважения! Всё на высшем уровне!
             </div>
-            <div class="comments">69&nbsp;&nbsp; ♡ 3&nbsp;&nbsp; ▢ 8</div>
-            <div class="comment-lines">
-              <i></i>
-              <i></i>
-              <i></i>
-            </div>
+            <div class="comment">Мы тоже решили посетить,</div>
           </article>
-          <article class="phone phone-side">
-            <div class="phone-bar">
-              <b>1-000.kz</b>
-              <span>⌁ ◒</span>
-            </div>
-            <div class="city">
+          <article class="phone phone--menu">
+            <small>
+              1-000.kz
+              <span>▂ ▰ ▰</span>
+            </small>
+            <h3>
               ‹
               <b>Алматы⌄</b>
-            </div>
-            <div class="search">⌕&nbsp; Поиск</div>
-            <div class="categories">
-              <span>
-                ●
-                <small>Подкатег.</small>
-              </span>
-              <span>
-                ●
-                <small>Подкатег.</small>
-              </span>
-              <span>
-                ●
-                <small>Подкатег.</small>
-              </span>
-            </div>
+            </h3>
+            <div class="search">⌕ Поиск</div>
+            <div class="tags">🔹　✉️　🖼️　🟨</div>
             <div class="dish"></div>
-            <div class="restaurant">
-              <small>РЕСТОРАН</small>
-              <b>New york cafe</b>
-              <span>★★★★★</span>
-            </div>
+            <small>РЕСТОРАН</small>
+            <strong>New york cafe</strong>
+            <p>Отзывы от Адлет, и ещё 98 человек</p>
           </article>
         </section>
       </div>
     </main>
+
     <footer
       id="contacts"
-      class="site-footer"
+      class="footer container"
     >
-      <div class="footer-card container">
-        <h2>IT WEBSITE</h2>
-        <div class="footer-details">
-          <div>
-            <span>▯ &nbsp; Contact nums</span>
-            <a href="tel:+77783959026">+7 (778) 395 90 26</a>
-          </div>
-          <div>
-            <span>✉ &nbsp; Post</span>
-            <a href="mailto:mail@mail.com">mail@mail.com</a>
-          </div>
-          <div>
-            <span>⌾ &nbsp; Adress</span>
-            <b>City city, steet st. 90</b>
-          </div>
-          <div>
-            <span>▱ &nbsp; Leave a request</span>
-            <a href="#home">Leave a request</a>
-          </div>
-        </div>
-        <p>✦ &nbsp; We work throughout world</p>
+      <h2>IT WEBSITE</h2>
+      <div>
+        <p>
+          <img src="assets/img/phone.svg" alt="" />Contact nums
+          <br />
+          <b>+7 (778) 395 90 26</b>
+        </p>
+        <p>
+          <img src="assets/img/email.svg" alt="" />Post
+          <br />
+          <b>mail@mail.com</b>
+        </p>
+        <p>
+          ⌾ Adress
+          <br />
+          <b>City city, steet st. 90</b>
+        </p>
+        <p>
+          ▱ Leave a request
+          <br />
+          <b>Leave a request</b>
+        </p>
       </div>
+      <small>✦　We work throughout world</small>
     </footer>
   </body>
 </html>
